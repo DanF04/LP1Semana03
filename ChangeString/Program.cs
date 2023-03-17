@@ -6,17 +6,17 @@ namespace ChangeString
     {
         static void Main(string[] args)
         {
-            string x = "This is a string!";
-            Console.WriteLine(x);
-            string y = "i";
-            Console.WriteLine(y);
-            string[] z = new string[] { "i" };
+            Console.WriteLine("Write something: ");
+            string phrase = Console.ReadLine();
+            Console.WriteLine("Write a letter: ");
+            string character = Console.ReadLine();
+            string[] z = new string[] { character };
             
             foreach ( var c in z)
             {
-                x = x.Replace(c, string.Empty);
+                phrase = phrase.Replace(c, string.Empty);
             }
-            Console.WriteLine(x);
+            Console.WriteLine("Result: " + phrase);
 
 
         }
