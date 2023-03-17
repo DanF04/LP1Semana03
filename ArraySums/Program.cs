@@ -12,8 +12,8 @@ namespace ArraySums
             int vertical = Convert.ToInt32(Console.ReadLine());
 
             float[,] matrix = new float[horizontal, vertical];
-            float[] sums_line = new float[vertical];
-            float[] sums_column = new float[horizontal];
+            float[] sums_line = new float[horizontal];
+            float[] sums_column = new float[vertical];
 
             for (int i = 0; i < matrix.GetLength(0); i++)
             {
