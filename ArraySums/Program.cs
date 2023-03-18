@@ -4,6 +4,7 @@ namespace ArraySums
 {
     class Program
     {
+        
         static void Main(string[] args)
         {
             Console.WriteLine("Give me a horizontal dimension of an array: ");
