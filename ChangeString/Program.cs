@@ -15,7 +15,7 @@ namespace ChangeString
             foreach (char c in ask)
             {
                 char x = c == ch ? 'x' : c;
-                Console.WriteLine(x);
+                Console.Write(x);
             }
 
 
