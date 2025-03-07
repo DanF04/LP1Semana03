@@ -14,7 +14,8 @@ namespace Pow2Until
         }
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
+            Powersof2Until5();
+            Powersof2Until5();
         }
     }
 }
